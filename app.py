@@ -30,14 +30,15 @@ section = st.sidebar.radio(
 # ---------------- Connect With Me Button On Sidebar ----------------
 st.sidebar.subheader("Connect With Me 🔗")
 
-if st.sidebar.button("Linkedin"):
-    webbrowser.open_new_tab("https://www.linkedin.com/in/divyanshi-doser")
+if st.sidebar.button("LinkedIn"):
+    st.markdown("[Click here to open LinkedIn](https://www.linkedin.com/in/divyanshi-doser)")
 
 if st.sidebar.button("Instagram"):
-    webbrowser.open_new_tab("https://www.instagram.com/analytics_with_divyanshi")
+    st.markdown("[Click here to open Instagram](https://www.instagram.com/analytics_with_divyanshi)")
 
 if st.sidebar.button("YouTube"):
-    webbrowser.open_new_tab("https://www.youtube.com/@AnalyticsWithDivyanshi")
+    st.markdown("[Click here to open YouTube](https://www.youtube.com/@AnalyticsWithDivyanshi)")
+
 
     
 # ---------------- INTRO ----------------
@@ -485,3 +486,4 @@ elif section == "Final Reflection":
     - Reality didn't get saved by magic.
     It got saved by asking the right question at the right time.
     """)
+
