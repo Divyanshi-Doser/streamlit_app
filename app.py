@@ -1,6 +1,5 @@
 import streamlit as st
 from PIL import Image
-import webbrowser
 
 # ---------------- PAGE CONFIG ----------------
 st.set_page_config(
@@ -496,6 +495,7 @@ elif section == "Final Reflection":
     - Reality didn't get saved by magic.
     It got saved by asking the right question at the right time.
     """)
+
 
 
 
