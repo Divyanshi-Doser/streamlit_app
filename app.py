@@ -30,11 +30,24 @@ section = st.sidebar.radio(
 # ---------------- Connect With Me Button On Sidebar ----------------
 st.sidebar.subheader("Connect With Me 🔗")
 
-st.pagelink("https://www.linkedin.com/in/divyanshi-doser")
+st.sidebar.markdown(
+    '<a href="https://www.linkedin.com/in/divyanshi-doser" target="_blank">'
+    '<button style="width:100%; padding:8px; background-color:#0A66C2; color:white; border:none; border-radius:5px;">LinkedIn</button>'
+    '</a>', unsafe_allow_html=True
+)
 
-st.pagelink("https://www.instagram.com/analytics_with_divyanshi")
+st.sidebar.markdown(
+    '<a href="https://www.instagram.com/analytics_with_divyanshi" target="_blank">'
+    '<button style="width:100%; padding:8px; background-color:#E1306C; color:white; border:none; border-radius:5px;">Instagram</button>'
+    '</a>', unsafe_allow_html=True
+)
 
-st.pagelink("https://www.youtube.com/@AnalyticsWithDivyanshi")
+st.sidebar.markdown(
+    '<a href="https://www.youtube.com/@AnalyticsWithDivyanshi" target="_blank">'
+    '<button style="width:100%; padding:8px; background-color:#FF0000; color:white; border:none; border-radius:5px;">YouTube</button>'
+    '</a>', unsafe_allow_html=True
+)
+
 
 
     
@@ -483,5 +496,6 @@ elif section == "Final Reflection":
     - Reality didn't get saved by magic.
     It got saved by asking the right question at the right time.
     """)
+
 
 
